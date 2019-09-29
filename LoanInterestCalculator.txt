@@ -1,0 +1,16 @@
+Project Title:
+
+* Loan Interest Calculator
+
+Descripton:
+
+* User Interface is implemented.
+* In that, user enters the monetary loan amount and loan duration by using a react-input-range npm.
+* After that the calculated interest rate, monthly payment and loan duration(in months) is displayed.
+* When user changes the either loan amount or loan duration details, the calculated values automatically updated.
+* In the side bar implementation, History button is their.
+* When we click on that button, a dialog box should be populated which has the table of Previous loan amount and duration combinations.
+* In additional to those combinations table has interest details button.
+* When we click on the interest details button, calculated interest rate and monthly payment should be populated in dialog box.
+* When u want to refresh the page, click on the header the page automatically reload.
+

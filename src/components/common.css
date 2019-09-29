@@ -1,0 +1,294 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-height: 100vh;
+    background: #f2f2f2;
+}
+
+/* header css */
+
+.header {
+    padding: 18px;
+    margin: 0;
+    text-align: center;
+    background-color: #2ca6a5;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.element {
+    color: white;
+    text-decoration: none;
+}
+
+/* footer css */
+
+.footer {
+    padding: 18px;
+    margin: 0;
+    text-align: center;
+    background-color: #2ca6a5;
+    color: white;
+    font-size: 18px;
+}
+
+/* SideBar css */
+
+.sideBar {
+    width: 180px; 
+    height: 806px;
+    /* padding: 18px; */
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+}
+
+.historyName {
+    display: block;
+}
+
+/* Responsiveness for side bar css */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .sideBar {
+        width: 30px;
+        height: 806px;
+        /* padding: 18px; */
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+    }
+    .historyName {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .sideBar {
+        width: 150px;
+        height: 878px;
+        /* padding: 18px; */
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sideBar {
+        width: 150px;
+        height: 878px;
+        /* padding: 18px; */
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+    }
+}
+
+.data {
+    display: inline-flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card {
+    padding: 8px;
+}
+
+/* Paper details css*/
+
+.paper {
+    margin: 100px;
+    width: 550px;
+    padding: 50px;
+	background: #fff;
+}
+
+/* Responsiveness for paper details css */
+
+@media (min-width: 0px) and (max-width: 319px) {
+    .paper {
+        height: auto;
+        margin: 0px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    .paper {
+        height: 500px;
+        width: 192px;
+        margin: 0px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+    .paper {
+        height: 500px;
+        width: 228px;
+        margin: 0px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+    .paper {
+        height: 588px;
+        width: 246px;
+        margin: 0px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 475px) {
+    .paper {
+        height: 588px;
+        width: 286px;
+        margin: 0px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 600px) {
+    .paper {
+        height: 588px;
+        width: 350px;
+        margin: 0px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .paper {
+        height: 510px;
+        width: 310px;
+        margin: 120px 30px 30px 29px;;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .paper {
+        margin: 80px;
+        padding: 50px;
+        background: #fff;
+        height: 490px;
+        width: 468px;
+    }
+}
+
+@media (min-width: 1025) and (max-width: 1280px) {
+    .paper {
+        margin: 100px;
+        padding: 50px;
+        background: #fff;
+        height: 490px;
+        width: 716px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .paper {
+        height: 488px;
+        width: 795px;
+        margin: 100px;
+        padding: 50px;
+        background: #fff;
+    }
+}
+
+/* Input Range Details */
+
+label {
+	margin-bottom: 32px;
+	font-size: 1.5rem;
+}
+
+.input {
+    margin-top: 40px;
+}
+
+.form-heading {
+	margin-bottom: 3rem;
+}
+
+.input-range {
+	margin: 2px 15px;
+}
+
+.input-range__label-container {
+	color: #212529;
+	font-size: 16px;
+}
+
+.input-range__label--min,
+.input-range__label--max {
+	top: 25px !important;
+}
+
+.input-range__label--value {
+	top: -33px;
+}
+
+
+/* Interest Details */
+
+.interestDetails {
+    margin-top: -30px;
+}
+
+.interestData {
+	font-size: 1.3rem;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.interestLabel {
+	color: #554c4c;
+}
+
+.interestDisplay,
+.paymentDisplay,
+.number-display {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.data-display {
+	color: #2881d9;
+}
+
+/* Dialog auto generated style */
+
+.MuiDialog-container {
+    height: 100%;
+    outline: 0;
+    margin: -40px;
+}
+
+.dialogTitle {
+    text-align: center;
+}
